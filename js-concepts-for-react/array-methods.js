@@ -21,10 +21,10 @@ products.forEach(product => {
 
 // 3. filter
 const cheap = products.filter(product => product.price <= 5000);
-// console.log(cheap);
+console.log(cheap);
 
 const specificName = products.filter(p => p.name.includes('n'));
-// console.log(specificName);
+console.log(specificName);
 
 
 //4. find
