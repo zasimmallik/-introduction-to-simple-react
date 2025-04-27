@@ -19,7 +19,7 @@ export default function Team(){
         borderRadius: '15px'
     }
 
-    return (
+    return ( 
         <div style={teamStyle}>
             <h3>Players: {team}</h3>
             <button onClick={handleAdd}>Add</button>
